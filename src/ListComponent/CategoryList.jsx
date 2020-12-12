@@ -19,8 +19,6 @@ const CategoryList = (props) => {
         brandList.push(value)
     ))
 
-    console.log(brandList)
-
     return(
 
         <div>

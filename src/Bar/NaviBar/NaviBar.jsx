@@ -9,7 +9,6 @@ const NaviBar = () => {
         <div className={styles.navContainer}>
             <header className={styles.container}>
                 <nav>
-                    {/*<a href="/seainfo6150-final-project-webapp" className={styles.mainIcon}>POSub</a>*/}
                     {/*<a href="/" className={styles.mainIcon}>PoSub</a>*/}
                     <Link to="/" className={styles.mainIcon}>PoSUB</Link>
                 </nav>
@@ -25,13 +24,8 @@ const NaviBar = () => {
 
                         <li className={styles.listItem}>
                             {/*<a href="/seainfo6150-final-project-webapp/category">Category</a>*/}
-                            {/*<a href="/category">Category</a>*/}
                             <Link to="/category">Category</Link>
                         </li>
-
-                        {/*<li className={styles.listItem}>*/}
-                        {/*    <a href="/seainfo6150-final-project-webapp/order">Order</a>*/}
-                        {/*</li>*/}
 
                     </ul>
                 </nav>
