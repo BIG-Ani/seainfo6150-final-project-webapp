@@ -1,14 +1,17 @@
 {
   "files": {
-    "main.js": "/seainfo6150-final-project-webapp/static/js/main.92c02af9.chunk.js",
-    "main.js.map": "/seainfo6150-final-project-webapp/static/js/main.92c02af9.chunk.js.map",
+    "main.css": "/seainfo6150-final-project-webapp/static/css/main.a6ccf3ab.chunk.css",
+    "main.js": "/seainfo6150-final-project-webapp/static/js/main.0cb8a91b.chunk.js",
+    "main.js.map": "/seainfo6150-final-project-webapp/static/js/main.0cb8a91b.chunk.js.map",
     "runtime~main.js": "/seainfo6150-final-project-webapp/static/js/runtime~main.c4d7f5e8.js",
     "runtime~main.js.map": "/seainfo6150-final-project-webapp/static/js/runtime~main.c4d7f5e8.js.map",
-    "static/js/2.fc54e8b9.chunk.js": "/seainfo6150-final-project-webapp/static/js/2.fc54e8b9.chunk.js",
-    "static/js/2.fc54e8b9.chunk.js.map": "/seainfo6150-final-project-webapp/static/js/2.fc54e8b9.chunk.js.map",
+    "static/js/2.2676d246.chunk.js": "/seainfo6150-final-project-webapp/static/js/2.2676d246.chunk.js",
+    "static/js/2.2676d246.chunk.js.map": "/seainfo6150-final-project-webapp/static/js/2.2676d246.chunk.js.map",
     "index.html": "/seainfo6150-final-project-webapp/index.html",
-    "precache-manifest.ebf9982c23f4e0507b9c46da0a18f508.js": "/seainfo6150-final-project-webapp/precache-manifest.ebf9982c23f4e0507b9c46da0a18f508.js",
+    "precache-manifest.1aa5c9f6455ce249df2b42f87e83d217.js": "/seainfo6150-final-project-webapp/precache-manifest.1aa5c9f6455ce249df2b42f87e83d217.js",
     "service-worker.js": "/seainfo6150-final-project-webapp/service-worker.js",
-    "static/media/treefrog.jpg": "/seainfo6150-final-project-webapp/static/media/treefrog.52b16bf8.jpg"
+    "static/css/main.a6ccf3ab.chunk.css.map": "/seainfo6150-final-project-webapp/static/css/main.a6ccf3ab.chunk.css.map",
+    "static/media/error.png": "/seainfo6150-final-project-webapp/static/media/error.d0a7dd00.png",
+    "static/media/mainpage.png": "/seainfo6150-final-project-webapp/static/media/mainpage.93fe9297.png"
   }
 }
