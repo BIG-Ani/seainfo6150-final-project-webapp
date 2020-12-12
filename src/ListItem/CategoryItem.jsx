@@ -13,7 +13,7 @@ const CategoryItem = (props) => {
 
         <>
             {/*<h2 className={styles.brandTitle}><a href={'/seainfo6150-final-project-webapp/category/'+brand}>{brand}</a></h2>*/}
-            <h2 className={styles.brandTitle}><a href={'/category/'+brand}>{brand}</a></h2>
+            <h2 className={styles.brandTitle}><Link to={'/category/'+brand}>{brand}</Link></h2>
 
             <div className={styles.brandContainer}>
                 {posts
