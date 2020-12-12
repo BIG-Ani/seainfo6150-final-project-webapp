@@ -30,7 +30,7 @@ const SingleCategoryList = (props) => {
                                 {/*<h2><a href={'/seainfo6150-final-project-webapp/posts/:'+post.id}>{post.title}</a></h2>*/}
                                 {/*<h2 className={styles.postTitle}><a href={'/seainfo6150-final-project-webapp/posts/'+post.id}>{post.title}</a></h2>*/}
                                 <h2 className={styles.postTitle}>
-                                    <Link href={'/posts/'+post.id}>{post.title}</Link>
+                                    <Link to={'/posts/'+post.id}>{post.title}</Link>
                                 </h2>
 
                                 <p>{post.author}</p>
