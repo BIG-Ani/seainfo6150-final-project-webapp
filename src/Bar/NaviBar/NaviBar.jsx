@@ -11,7 +11,7 @@ const NaviBar = () => {
                 <nav>
                     {/*<a href="/seainfo6150-final-project-webapp" className={styles.mainIcon}>POSub</a>*/}
                     {/*<a href="/" className={styles.mainIcon}>PoSub</a>*/}
-                    <Link to="/" className={styles.mainIcon}>POSTSUB</Link>
+                    <Link to="/" className={styles.mainIcon}>PoSUB</Link>
                 </nav>
 
                 <nav>

@@ -15,7 +15,6 @@ const PostDetailItem = (props) => {
     const postId = props.postId;
 
     const targetPost = posts.filter(post => post.id === postId)[0];
-    console.log('targetPost', targetPost)
 
     function onClick() {
         setShowForm(!showForm);

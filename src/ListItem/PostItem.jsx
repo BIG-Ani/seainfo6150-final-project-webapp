@@ -2,6 +2,7 @@ import React from 'react'
 import LinesEllipsis from 'react-lines-ellipsis'
 
 import styles from './PostItem.module.css'
+import {Link} from "react-router-dom";
 
 const PostItem = (props) => {
 
@@ -10,7 +11,7 @@ const PostItem = (props) => {
         <div className={styles.container}>
             <div className={styles.textPart}>
                 {/*<h3><a href={'/posts/'+props.post.id}>{props.post.title}</a> - <span>{props.post.brand}</span></h3>*/}
-                <h3><a href={'/posts/'+props.post.id}>{props.post.title}</a></h3>
+                <h3><Link to={'/posts/'+props.post.id}>{props.post.title}</Link></h3>
                 {/*<h3><a href={'/seainfo6150-final-project-webapp/posts/'+props.post.id}>{props.post.title}</a></h3>*/}
 
                 <LinesEllipsis text={props.post.intro}

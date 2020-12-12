@@ -14,8 +14,6 @@ import DetailPost from "../../Detail/DetailPost";
 
 const Homepage = (props) => {
 
-    console.log("home page", typeof props.posts);
-
     let displayContent;
 
     if (props.posts.length) {
@@ -43,8 +41,6 @@ const Homepage = (props) => {
     brandListContent.forEach((key, value) => (
         brandList.push(value)
     ))
-
-    console.log(brandList)
 
     return(
         <div className={styles.container}>
