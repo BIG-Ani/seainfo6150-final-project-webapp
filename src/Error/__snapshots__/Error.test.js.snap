@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`error page test render successfully  1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div>
+      <div
+        class="navContainer"
+      >
+        <header
+          class="container"
+        >
+          <nav>
+            <a
+              class="mainIcon"
+              href="/"
+            >
+              PoSub
+            </a>
+          </nav>
+          <nav>
+            <ul
+              class="list"
+            >
+              <li
+                class="listItem"
+              >
+                <a
+                  href="/contact"
+                >
+                  Contact
+                </a>
+              </li>
+              <li
+                class="listItem"
+              >
+                <a
+                  href="/category"
+                >
+                  Category
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+    </div>
+    <div
+      class="imgContainer"
+    >
+      <img
+        alt="Page Not Found"
+        class="errorImg"
+        src="error.png"
+      />
+    </div>
+  </div>
+</div>
+`;

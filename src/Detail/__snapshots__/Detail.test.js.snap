@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`detail page test render data successfully  1`] = `
+<div>
+  <div>
+    <div>
+      <div
+        class="navContainer"
+      >
+        <header
+          class="container"
+        >
+          <nav>
+            <a
+              class="mainIcon"
+              href="/"
+            >
+              PoSub
+            </a>
+          </nav>
+          <nav>
+            <ul
+              class="list"
+            >
+              <li
+                class="listItem"
+              >
+                <a
+                  href="/contact"
+                >
+                  Contact
+                </a>
+              </li>
+              <li
+                class="listItem"
+              >
+                <a
+                  href="/category"
+                >
+                  Category
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+    </div>
+    <div
+      class="postContainer"
+    >
+      <div
+        class="header"
+      >
+        <div
+          class="headerLeft"
+        >
+          <img
+            alt="Netflix Android and iOS Studio Apps — now powered by Kotlin Multiplatform"
+            src="https://miro.medium.com/max/1400/1*ikCI36gKEUusNuV4NDrVyQ.png"
+          />
+        </div>
+        <div
+          class="headerRight"
+        >
+          <h2>
+            Netflix Android and iOS Studio Apps — now powered by Kotlin Multiplatform
+          </h2>
+          <p>
+            David Henry & Mel Yahya
+          </p>
+          <button
+            class="button"
+          >
+            Subscribe
+          </button>
+        </div>
+      </div>
+      <div
+        class="bodySection"
+      >
+        <div>
+          <div>
+            <p>
+              As noted earlier, our user needs vary significantly from one production to the next. This translates to a large number of app configurations to toggle feature availability and optimize the in-app experience for each production. Decoupling the code that manages these configurations from the apps themselves helps to reduce complexity as the apps grow. Our first exploration with code sharing involves the implementation of a mobile SDK for our internal experience management tool, Hendrix.
+            </p>
+             
+            <p>
+              At its core, Hendrix is a simple interpreted language that expresses how configuration values should be computed. These expressions are evaluated in the current app session context, and can access data such as A/B test assignments, locality, device attributes, etc. For our use-case, we’re configuring the availability of production, version, and region specific app feature sets.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

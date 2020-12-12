@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    /*justify-content: center;*/
+
+    text-align: center;
+}
+
+.imgContainer {
+    /*text-align: center;*/
+}
+
+.errorImg {
+    width: 50%;
+
+    padding-top: 50px;
+}
+
+.aboutText {
+    margin: 100px auto;
+    text-align: left;
+}
+
+.aboutText a {
+    text-decoration: underline;
+}

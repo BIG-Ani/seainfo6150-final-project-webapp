@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test navigation test navigation successfully 1`] = `
+<div>
+  <div
+    class="navContainer"
+  >
+    <header
+      class="container"
+    >
+      <nav>
+        <a
+          class="mainIcon"
+          href="/"
+        >
+          PoSub
+        </a>
+      </nav>
+      <nav>
+        <ul
+          class="list"
+        >
+          <li
+            class="listItem"
+          >
+            <a
+              href="/contact"
+            >
+              Contact
+            </a>
+          </li>
+          <li
+            class="listItem"
+          >
+            <a
+              href="/category"
+            >
+              Category
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+</div>
+`;

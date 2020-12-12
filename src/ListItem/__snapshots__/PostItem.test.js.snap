@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`post detail test render successfully  1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="textPart"
+    >
+      <h3>
+        <a
+          href="/posts/1"
+        >
+          Netflix Android and iOS Studio Apps — now powered by Kotlin Multiplatform
+        </a>
+      </h3>
+      <div
+        class="LinesEllipsis  "
+      >
+        Over the last few years Netflix has been developing a mobile app called Prodicle to innovate in the physical production of TV shows and movies. The world of physical production is fast-paced, and needs vary significantly between the country, region, and even from one production to the next. The nature of the work means we’re developing write-heavy software, in a distributed environment, on devices where less than ⅓ of our users have very reliable connectivity whilst on set, and with a limited margin for error. For these reasons, as a small engineering team, we’ve found that optimizing for reliability and speed of product delivery is required for us to serve our evolving customers’ needs successfully.
+        <wbr />
+      </div>
+      <p>
+        Oct 28, 2020
+         - 
+        David Henry & Mel Yahya
+      </p>
+    </div>
+    <div
+      class="imgPart"
+    >
+      <img
+        src="https://miro.medium.com/max/1400/1*ikCI36gKEUusNuV4NDrVyQ.png"
+      />
+    </div>
+  </div>
+</div>
+`;

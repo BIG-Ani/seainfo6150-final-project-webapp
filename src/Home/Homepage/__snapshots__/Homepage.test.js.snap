@@ -1,0 +1,605 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`homepage test render with data successfully  1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div>
+      <div
+        class="navContainer"
+      >
+        <header
+          class="container"
+        >
+          <nav>
+            <a
+              class="mainIcon"
+              href="/"
+            >
+              PoSub
+            </a>
+          </nav>
+          <nav>
+            <ul
+              class="list"
+            >
+              <li
+                class="listItem"
+              >
+                <a
+                  href="/contact"
+                >
+                  Contact
+                </a>
+              </li>
+              <li
+                class="listItem"
+              >
+                <a
+                  href="/category"
+                >
+                  Category
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+    </div>
+    <div
+      class="bodyPart"
+    >
+      <div
+        class="leftPart"
+      >
+        <ul
+          class="textContainer"
+        >
+          <div
+            class="container"
+          >
+            <div
+              class="textPart"
+            >
+              <h3>
+                <a
+                  href="/posts/1"
+                >
+                  Netflix Android and iOS Studio Apps — now powered by Kotlin Multiplatform
+                </a>
+              </h3>
+              <div
+                class="LinesEllipsis  "
+              >
+                Over the last few years Netflix has been developing a mobile app called Prodicle to innovate in the physical production of TV shows and movies. The world of physical production is fast-paced, and needs vary significantly between the country, region, and even from one production to the next. The nature of the work means we’re developing write-heavy software, in a distributed environment, on devices where less than ⅓ of our users have very reliable connectivity whilst on set, and with a limited margin for error. For these reasons, as a small engineering team, we’ve found that optimizing for reliability and speed of product delivery is required for us to serve our evolving customers’ needs successfully.
+                <wbr />
+              </div>
+              <p>
+                Oct 28, 2020
+                 - 
+                David Henry & Mel Yahya
+              </p>
+            </div>
+            <div
+              class="imgPart"
+            >
+              <img
+                src="https://miro.medium.com/max/1400/1*ikCI36gKEUusNuV4NDrVyQ.png"
+              />
+            </div>
+          </div>
+          <div
+            class="container"
+          >
+            <div
+              class="textPart"
+            >
+              <h3>
+                <a
+                  href="/posts/2"
+                >
+                  How Netflix Scales its API with GraphQL Federation (Part 1)
+                </a>
+              </h3>
+              <div
+                class="LinesEllipsis  "
+              >
+                Netflix is known for its loosely coupled and highly scalable microservice architecture. Independent services allow for evolving at different paces and scaling independently. Yet they add complexity for use cases that span multiple services. Rather than exposing 100s of microservices to UI developers, Netflix offers a unified API aggregation layer at the edge.
+                <wbr />
+              </div>
+              <p>
+                Nov 9, 2020
+                 - 
+                Tejas Shikhare
+              </p>
+            </div>
+            <div
+              class="imgPart"
+            >
+              <img
+                src="https://miro.medium.com/max/1400/0*UfiYCmNd3EN_vNkh"
+              />
+            </div>
+          </div>
+          <div
+            class="container"
+          >
+            <div
+              class="textPart"
+            >
+              <h3>
+                <a
+                  href="/posts/3"
+                >
+                  Using Memorystore with Cloud Run
+                </a>
+              </h3>
+              <div
+                class="LinesEllipsis  "
+              >
+                Google’s Memorystore service provides a fully managed Redis environment. Cloud Run provides a fully managed container hosting environment with automatic scaling. This opens up the opportunity to design solutions hosted by Cloud Run that leverage the services of Memorystore. In this article we will examine what is involved to set that up.
+                <wbr />
+              </div>
+              <p>
+                Jul 21, 2020
+                 - 
+                Neil Kolban
+              </p>
+            </div>
+            <div
+              class="imgPart"
+            >
+              <img
+                src="https://miro.medium.com/fit/c/400/266/0*eCD-C_aF_kcTR8KH"
+              />
+            </div>
+          </div>
+          <div
+            class="container"
+          >
+            <div
+              class="textPart"
+            >
+              <h3>
+                <a
+                  href="/posts/4"
+                >
+                  What I learned about WebSockets by building a real-time chat application using Socket.IO.
+                </a>
+              </h3>
+              <div
+                class="LinesEllipsis  "
+              >
+                In this article, I take a deep-dive into the world of WebsSockets, looking at the history of HTTP and the web and the use of WebSockets on the modern Web. I also list 16 steps to building your own real-time chat application, allowing you to gain hands-on experience with this powerful technology. I highly encourage that those with a basic grasp of web development take 20 minutes to follow along. The project uses Node.js, some vanilla JavaScript and a pre-built front-end. https://medium.com/@jamesbrown5292/what-i-learned-about-websockets-by-building-a-real-time-chat-application-using-socket-io-3d9e163e504
+                <wbr />
+              </div>
+              <p>
+                Oct 18, 2020
+                 - 
+                James Brown
+              </p>
+            </div>
+            <div
+              class="imgPart"
+            >
+              <img
+                src="https://miro.medium.com/fit/c/400/266/1*jTmCp3L3eVEG4fokeuqQZQ.png"
+              />
+            </div>
+          </div>
+          <div
+            class="container"
+          >
+            <div
+              class="textPart"
+            >
+              <h3>
+                <a
+                  href="/posts/5"
+                >
+                  How To Alleviate Single Points of Failure in a Critical Service, Featuring the Kardashians
+                </a>
+              </h3>
+              <div
+                class="LinesEllipsis  "
+              >
+                At Compass, we can fetch listing data by either loading records with specific identifiers or searching for records that match a query. So what do we do when an external service tightly couples these paths that should operate independently of one another? Unnecessary bottlenecks, resource depletion, and down times. All in all, not a good look. But, let’s find a solution with the help of the Kardashians.https://medium.com/compass-true-north/how-to-alleviate-single-points-of-failure-in-a-critical-service-featuring-the-kardashians-f51d69dc6841
+                <wbr />
+              </div>
+              <p>
+                Sep 29, 2020
+                 - 
+                Sana Sheikh
+              </p>
+            </div>
+            <div
+              class="imgPart"
+            >
+              <img
+                src="https://miro.medium.com/max/1400/0*_BAj6eDmwf9xF_-d"
+              />
+            </div>
+          </div>
+          <div
+            class="container"
+          >
+            <div
+              class="textPart"
+            >
+              <h3>
+                <a
+                  href="/posts/6"
+                >
+                  Google Cloud SQL — Tips & Tricks
+                </a>
+              </h3>
+              <div
+                class="LinesEllipsis  "
+              >
+                When creating a new Cloud SQL instance… Ensure that the instance name is picked wisely. You may find it helpful if it remains short, and contains the Cloud SQL edition (MySQL, PostgreSQL, SQL Server) and version number. For example, pg12.https://medium.com/@koistya/google-cloud-sql-tips-tricks-d0fe7106c68a
+                <wbr />
+              </div>
+              <p>
+                Sep 6, 2020
+                 - 
+                Konstantin Tarkus
+              </p>
+            </div>
+            <div
+              class="imgPart"
+            >
+              <img
+                src="https://miro.medium.com/max/1400/1*d8WezOUjUDt5lwAVA0FhDA.jpeg"
+              />
+            </div>
+          </div>
+          <div
+            class="container"
+          >
+            <div
+              class="textPart"
+            >
+              <h3>
+                <a
+                  href="/posts/7"
+                >
+                  Designing Edge Gateway, Uber’s API Lifecycle Management Platform
+                </a>
+              </h3>
+              <div
+                class="LinesEllipsis  "
+              >
+                In October 2014, Uber had started its journey of scale in what would eventually turn out to be one of the most impressive growth phases in the company. Over time we were scaling our engineering teams non-linearly each month and acquiring millions of users across the world.https://eng.uber.com/gatewayuberapi/
+                <wbr />
+              </div>
+              <p>
+                August 18, 2020
+                 - 
+                Madan Thangavelu, Uday Kiran Medisetty, and Pavel Astakhov
+              </p>
+            </div>
+            <div
+              class="imgPart"
+            >
+              <img
+                src="https://1fykyq3mdn5r21tpna3wkdyi-wpengine.netdna-ssl.com/wp-content/uploads/2020/08/unnamed-3.png"
+              />
+            </div>
+          </div>
+          <div
+            class="container"
+          >
+            <div
+              class="textPart"
+            >
+              <h3>
+                <a
+                  href="/posts/8"
+                >
+                  Revolutionizing Money Movements at Scale with Strong Data Consistency
+                </a>
+              </h3>
+              <div
+                class="LinesEllipsis  "
+              >
+                Uber as a platform invites its users to leverage it, earn from it, and be delighted by it. Serving more than 18 million requests per day, in 10,000+ cities, has enabled people to move freely and to think broadly while earning a livelihood on it. As one of the underlying engines, Uber Money fulfills some of the most important aspects of people’s engagement in the Uber experience. A system like this should not only be robust, but should also be highly available with zero-tolerance to downtime, after our success mantra: “To collect and disburse on-time, accurately and in-compliance”.https://eng.uber.com/money-scale-strong-data/
+                <wbr />
+              </div>
+              <p>
+                October 2, 2020
+                 - 
+                Aakriti Singla and Simon Wu
+              </p>
+            </div>
+            <div
+              class="imgPart"
+            >
+              <img
+                src="https://1fykyq3mdn5r21tpna3wkdyi-wpengine.netdna-ssl.com/wp-content/uploads/2020/10/unnamed-1536x812.png"
+              />
+            </div>
+          </div>
+          <div
+            class="container"
+          >
+            <div
+              class="textPart"
+            >
+              <h3>
+                <a
+                  href="/posts/9"
+                >
+                  Tricks of the Trade: Tuning JVM Memory for Large-scale Services
+                </a>
+              </h3>
+              <div
+                class="LinesEllipsis  "
+              >
+                Running queries on Uber’s data platform lets us make data-driven decisions at every level, from forecasting rider demand during high traffic events to identifying and addressing bottlenecks in the driver sign-up process. Our Apache Hadoop-based data platform ingests hundreds of petabytes of analytical data with minimum latency and stores it in a data lake built on top of the Hadoop Distributed File System (HDFS). https://eng.uber.com/jvm-tuning-garbage-collection/
+                <wbr />
+              </div>
+              <p>
+                February 26, 2020
+                 - 
+                Xinli Shang, Yi Zhang, Fengnan Li, Amruth Sampath, and Girish Baliga
+              </p>
+            </div>
+            <div
+              class="imgPart"
+            >
+              <img
+                src="https://1fykyq3mdn5r21tpna3wkdyi-wpengine.netdna-ssl.com/wp-content/uploads/2020/02/JVM_tuning_feature_image.png"
+              />
+            </div>
+          </div>
+          <div
+            class="container"
+          >
+            <div
+              class="textPart"
+            >
+              <h3>
+                <a
+                  href="/posts/10"
+                >
+                  Advanced Technologies for Detecting and Preventing Fraud at Uber
+                </a>
+              </h3>
+              <div
+                class="LinesEllipsis  "
+              >
+                Fraud has a direct impact on Uber as well as user experiences on the platform. To combat bad actors,  Uber has a dedicated team of anti-fraud analysts, data scientists, and UX experts who work collaboratively on this issue. As part of this effort, we build internal services that help us continually monitor and respond to changes in the ever-evolving fraud landscape.https://eng.uber.com/advanced-technologies-detecting-preventing-fraud-uber/
+                <wbr />
+              </div>
+              <p>
+                June 14, 2018
+                 - 
+                Ting Chen
+              </p>
+            </div>
+            <div
+              class="imgPart"
+            >
+              <img
+                src="https://1fykyq3mdn5r21tpna3wkdyi-wpengine.netdna-ssl.com/wp-content/uploads/2018/06/Fraud_Feature.jpg"
+              />
+            </div>
+          </div>
+          <div
+            class="container"
+          >
+            <div
+              class="textPart"
+            >
+              <h3>
+                <a
+                  href="/posts/11"
+                >
+                  Labs Interns | Machine learning project template
+                </a>
+              </h3>
+              <div
+                class="LinesEllipsis  "
+              >
+                The goal of my internship project was to create a structured way to evaluate machine learning/data science project ideas. I created a machine learning project template to help Concur Labs to prioritize and evaluate the existing as well as potential ML projects. The target users of this ML project template are all the ML project stakeholders, residents of Concur Labs’ internal residency program, and Concur employees who have an ML project idea.https://blog.concurlabs.com/labs-interns-machine-learning-project-template-8ec9913c892
+                <wbr />
+              </div>
+              <p>
+                Aug 23, 2019
+                 - 
+                Jeffrey (Che-An) Wu
+              </p>
+            </div>
+            <div
+              class="imgPart"
+            >
+              <img
+                src="https://miro.medium.com/max/1400/1*U0WxfUKAOYE92iqgTOQQjQ.png"
+              />
+            </div>
+          </div>
+          <div
+            class="container"
+          >
+            <div
+              class="textPart"
+            >
+              <h3>
+                <a
+                  href="/posts/12"
+                >
+                  GCP API Gateway Demo with Terraform / Go / Cloud Run
+                </a>
+              </h3>
+              <div
+                class="LinesEllipsis  "
+              >
+                If you’ve been building web services on GCP Cloud Functions or Cloud Run, then you might have noticed that Google Cloud has been missing an important piece of infrastructure: an API Gateway.https://didil.medium.com/gcp-api-gateway-demo-with-terraform-go-cloud-run-f76148328e06
+                <wbr />
+              </div>
+              <p>
+                Sep 23, 2019
+                 - 
+                Adil H
+              </p>
+            </div>
+            <div
+              class="imgPart"
+            >
+              <img
+                src="https://miro.medium.com/max/1400/1*CuywLc7oZDCU_MlN2Geqag.png"
+              />
+            </div>
+          </div>
+        </ul>
+      </div>
+      <div
+        class="rightPart"
+      >
+        <div
+          class="container"
+        >
+          <h3>
+            All Categories
+          </h3>
+          <ul
+            class="listContainer"
+          >
+            <h4
+              class="brandIcon"
+            >
+              <a
+                href="/category/Netflix"
+              >
+                Netflix
+              </a>
+            </h4>
+            <h4
+              class="brandIcon"
+            >
+              <a
+                href="/category/Google"
+              >
+                Google
+              </a>
+            </h4>
+            <h4
+              class="brandIcon"
+            >
+              <a
+                href="/category/Lighthouse Labs"
+              >
+                Lighthouse Labs
+              </a>
+            </h4>
+            <h4
+              class="brandIcon"
+            >
+              <a
+                href="/category/Compass True North"
+              >
+                Compass True North
+              </a>
+            </h4>
+            <h4
+              class="brandIcon"
+            >
+              <a
+                href="/category/Uber"
+              >
+                Uber
+              </a>
+            </h4>
+            <h4
+              class="brandIcon"
+            >
+              <a
+                href="/category/Concur Labs"
+              >
+                Concur Labs
+              </a>
+            </h4>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`homepage test render with no data successfully  1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div>
+      <div
+        class="navContainer"
+      >
+        <header
+          class="container"
+        >
+          <nav>
+            <a
+              class="mainIcon"
+              href="/"
+            >
+              PoSub
+            </a>
+          </nav>
+          <nav>
+            <ul
+              class="list"
+            >
+              <li
+                class="listItem"
+              >
+                <a
+                  href="/contact"
+                >
+                  Contact
+                </a>
+              </li>
+              <li
+                class="listItem"
+              >
+                <a
+                  href="/category"
+                >
+                  Category
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+    </div>
+    <div
+      class="bodyPart"
+    >
+      <div
+        class="leftPart"
+      >
+        <div>
+          You have no data!
+        </div>
+      </div>
+      <div
+        class="rightPart"
+      >
+        <div
+          class="container"
+        >
+          <h3>
+            All Categories
+          </h3>
+          <ul
+            class="listContainer"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`category item test category item successfully  1`] = `
+<div>
+  <h2
+    class="brandTitle"
+  >
+    <a
+      href="/category/Uber"
+    >
+      Uber
+    </a>
+  </h2>
+  <div
+    class="brandContainer"
+  >
+    <div
+      class="Post"
+    >
+      <h3>
+        <a
+          href="/posts/7"
+        >
+          Designing Edge Gateway, Uber’s API Lifecycle Management Platform
+        </a>
+      </h3>
+      <p>
+        - 
+        Madan Thangavelu, Uday Kiran Medisetty, and Pavel Astakhov
+      </p>
+      <div>
+        <div
+          class="LinesEllipsis  "
+        >
+          In October 2014, Uber had started its journey of scale in what would eventually turn out to be one of the most impressive growth phases in the company. Over time we were scaling our engineering teams non-linearly each month and acquiring millions of users across the world.https://eng.uber.com/gatewayuberapi/
+          <wbr />
+        </div>
+      </div>
+    </div>
+    <div
+      class="Post"
+    >
+      <h3>
+        <a
+          href="/posts/8"
+        >
+          Revolutionizing Money Movements at Scale with Strong Data Consistency
+        </a>
+      </h3>
+      <p>
+        - 
+        Aakriti Singla and Simon Wu
+      </p>
+      <div>
+        <div
+          class="LinesEllipsis  "
+        >
+          Uber as a platform invites its users to leverage it, earn from it, and be delighted by it. Serving more than 18 million requests per day, in 10,000+ cities, has enabled people to move freely and to think broadly while earning a livelihood on it. As one of the underlying engines, Uber Money fulfills some of the most important aspects of people’s engagement in the Uber experience. A system like this should not only be robust, but should also be highly available with zero-tolerance to downtime, after our success mantra: “To collect and disburse on-time, accurately and in-compliance”.https://eng.uber.com/money-scale-strong-data/
+          <wbr />
+        </div>
+      </div>
+    </div>
+    <div
+      class="Post"
+    >
+      <h3>
+        <a
+          href="/posts/9"
+        >
+          Tricks of the Trade: Tuning JVM Memory for Large-scale Services
+        </a>
+      </h3>
+      <p>
+        - 
+        Xinli Shang, Yi Zhang, Fengnan Li, Amruth Sampath, and Girish Baliga
+      </p>
+      <div>
+        <div
+          class="LinesEllipsis  "
+        >
+          Running queries on Uber’s data platform lets us make data-driven decisions at every level, from forecasting rider demand during high traffic events to identifying and addressing bottlenecks in the driver sign-up process. Our Apache Hadoop-based data platform ingests hundreds of petabytes of analytical data with minimum latency and stores it in a data lake built on top of the Hadoop Distributed File System (HDFS). https://eng.uber.com/jvm-tuning-garbage-collection/
+          <wbr />
+        </div>
+      </div>
+    </div>
+    <div
+      class="Post"
+    >
+      <h3>
+        <a
+          href="/posts/10"
+        >
+          Advanced Technologies for Detecting and Preventing Fraud at Uber
+        </a>
+      </h3>
+      <p>
+        - 
+        Ting Chen
+      </p>
+      <div>
+        <div
+          class="LinesEllipsis  "
+        >
+          Fraud has a direct impact on Uber as well as user experiences on the platform. To combat bad actors,  Uber has a dedicated team of anti-fraud analysts, data scientists, and UX experts who work collaboratively on this issue. As part of this effort, we build internal services that help us continually monitor and respond to changes in the ever-evolving fraud landscape.https://eng.uber.com/advanced-technologies-detecting-preventing-fraud-uber/
+          <wbr />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

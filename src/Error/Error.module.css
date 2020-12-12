@@ -1,0 +1,14 @@
+
+.container {
+    display: flex;
+    flex-flow: column;
+    /*justify-content: center;*/
+}
+
+.imgContainer {
+    text-align: center;
+}
+
+.errorImg {
+    width: 70%;
+}

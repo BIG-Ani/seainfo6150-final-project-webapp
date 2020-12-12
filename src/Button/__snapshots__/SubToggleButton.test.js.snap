@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`toggle button test button toggle successfully  1`] = `
+<div>
+  <button
+    class="button"
+  />
+</div>
+`;

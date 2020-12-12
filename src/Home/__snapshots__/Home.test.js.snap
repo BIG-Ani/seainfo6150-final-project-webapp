@@ -3,10 +3,55 @@
 exports[`renders the home component correctly 1`] = `
 <div>
   <div>
-    The home page
+    <div
+      class="navContainer"
+    >
+      <header
+        class="container"
+      >
+        <nav>
+          <a
+            class="mainIcon"
+            href="/"
+          >
+            PoSub
+          </a>
+        </nav>
+        <nav>
+          <ul
+            class="list"
+          >
+            <li
+              class="listItem"
+            >
+              <a
+                href="/contact"
+              >
+                Contact
+              </a>
+            </li>
+            <li
+              class="listItem"
+            >
+              <a
+                href="/category"
+              >
+                Category
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <p>
+      The home page
+    </p>
+    <h1>
+      I changed this homepage
+    </h1>
     <img
       alt="tree frog"
-      src="/images/treefrog.jpg"
+      src="treefrog.jpg"
     />
     <div>
       <form>

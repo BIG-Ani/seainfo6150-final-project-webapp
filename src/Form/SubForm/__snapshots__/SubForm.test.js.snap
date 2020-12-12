@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`sub form test render successfully  1`] = `
+<div>
+  <div>
+    <form>
+      <fieldset>
+        <legend>
+          <h2>
+            Subscribe Form
+          </h2>
+        </legend>
+        <div>
+          <label
+            for="first-name"
+          >
+            First name
+            <sup>
+              *
+            </sup>
+            :
+            <input
+              class="name"
+              id="first-name"
+              name="first-name"
+              required=""
+              type="text"
+            />
+          </label>
+        </div>
+        <div>
+          <label
+            for="last-name"
+          >
+            Last name
+            <sup>
+              *
+            </sup>
+            :
+            <input
+              class="name"
+              id="last-name"
+              name="last-name"
+              required=""
+              type="text"
+            />
+          </label>
+        </div>
+        <div>
+          <label
+            for="email"
+          >
+            Email
+            <sup>
+              *
+            </sup>
+            :
+            <input
+              class="email"
+              id="email"
+              name="email"
+              placeholder="ex: myname@example.com"
+              required=""
+              type="email"
+            />
+          </label>
+        </div>
+        <div>
+          <label
+            for="telephone"
+          >
+            Telephone:
+            <input
+              class="phone"
+              id="telephone"
+              name="telephone"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              placeholder="(xxx) xxx xxxx"
+              type="tel"
+            />
+          </label>
+        </div>
+        <div>
+          <label
+            for="period"
+          >
+            Period:
+            <select
+              class="period"
+              id="period"
+            >
+              <option>
+                please select one
+              </option>
+              <option
+                value="One Week"
+              >
+                A Week
+              </option>
+              <option
+                value="One Month"
+              >
+                A Month
+              </option>
+              <option
+                value="Three Month"
+              >
+                Three Months
+              </option>
+              <option
+                value="Six Months"
+              >
+                Six Months
+              </option>
+              <option
+                value="One Year"
+              >
+                A Year
+              </option>
+            </select>
+          </label>
+        </div>
+        <div
+          class="typeContainer"
+        >
+          <label
+            class="typeLabel"
+          >
+            Type:
+          </label>
+          <input
+            class="typeOption"
+            name="Normal"
+            type="radio"
+            value="Normal"
+          />
+          <label>
+            Normal
+          </label>
+          <input
+            class="typeOption"
+            name="Premium"
+            type="radio"
+            value="Premium"
+          />
+          <label>
+            Premium
+          </label>
+          <input
+            class="typeOption"
+            name="Free Trial"
+            type="radio"
+            value="Free Trial"
+          />
+          <label>
+            Free Trial
+          </label>
+        </div>
+        <div
+          class="formButtonContainer"
+        >
+          <input
+            class="registerButton"
+            type="submit"
+            value="Register"
+          />
+          <button
+            class="cancelButton"
+          >
+            Cancel
+          </button>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;

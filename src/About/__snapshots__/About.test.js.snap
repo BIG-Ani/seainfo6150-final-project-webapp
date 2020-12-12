@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About test about render correctly  1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div>
+      <div
+        class="navContainer"
+      >
+        <header
+          class="container"
+        >
+          <nav>
+            <a
+              class="mainIcon"
+              href="/"
+            >
+              PoSub
+            </a>
+          </nav>
+          <nav>
+            <ul
+              class="list"
+            >
+              <li
+                class="listItem"
+              >
+                <a
+                  href="/contact"
+                >
+                  Contact
+                </a>
+              </li>
+              <li
+                class="listItem"
+              >
+                <a
+                  href="/category"
+                >
+                  Category
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+    </div>
+    <div
+      class="imgContainer"
+    >
+      <img
+        alt="About Image: just to be simple"
+        class="errorImg"
+        src="mainpage.png"
+      />
+    </div>
+    <div
+      class="aboutText"
+    >
+      <h2>
+        <a
+          href="https://www.linkedin.com/in/leichenzhou/"
+        >
+          ABOUT ME
+        </a>
+      </h2>
+      <ul>
+        <li>
+          Understand basic usability, user experience and accessibility principles
+        </li>
+        <li>
+          Have a basic understanding and practical knowledge of HTML5
+        </li>
+        <li>
+          Write valid, well-formed, scalable, and semantically appropriate HTML5 within the context of a React app
+        </li>
+        <li>
+          Have a basic understanding and practical knowledge of CSS
+        </li>
+        <li>
+          Write CSS stylesheets within the context of a React app
+        </li>
+        <li>
+          Have a basic understanding and practical knowledge of Javascript
+        </li>
+        <li>
+          Have a basic understanding and practical knowledge of React and app development within the context of a React app.
+        </li>
+        <li>
+          Identify the types of images used in modern web design and explain what types are appropriate for different functions 
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

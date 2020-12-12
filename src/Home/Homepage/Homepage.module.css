@@ -1,0 +1,57 @@
+
+.container {
+    display: flex;
+    flex-flow: column;
+
+}
+
+.bodyPart {
+    display: flex;
+    flex-flow: row;
+
+    margin: 50px;
+    border-top: lightgray 1px solid;
+
+    /*border: black 2px solid;*/
+}
+
+.leftPart {
+    text-align: left;
+
+    width: 70%;
+    border-right: lightgray 1px solid;
+
+    margin-left: 0px;
+
+    /*border: red 2px solid;*/
+
+}
+
+.textContainer {
+    padding: 0px;
+}
+
+.rightPart {
+    float: left;
+
+    width: 30%;
+}
+
+@media screen and (max-width: 1200px){
+
+    .bodyPart {
+        display: flex;
+        flex-flow: column-reverse;
+    }
+
+    .leftPart {
+        border: none;
+    }
+
+    .rightPart {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+}

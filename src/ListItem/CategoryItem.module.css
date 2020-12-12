@@ -1,0 +1,15 @@
+.brandTitle {
+    text-decoration: underline;
+    font-size: 2.5rem;
+    padding-top: 50px;
+}
+
+.brandContainer {
+    margin: auto;
+    padding-bottom: 10px;
+    border-bottom: #656e79 2px dashed;
+}
+
+.Post {
+    padding-bottom: 40px;
+}
