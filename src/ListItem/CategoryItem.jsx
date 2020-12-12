@@ -22,7 +22,7 @@ const CategoryItem = (props) => {
                         <div className={styles.Post} key={post.id}>
                             {/*<h3><a href={'/seainfo6150-final-project-webapp/posts/'+post.id}>{post.title}</a></h3>*/}
                             <h3>
-                                <Link href={'/posts/'+post.id}>{post.title}</Link>
+                                <Link to={'/posts/'+post.id}>{post.title}</Link>
                             </h3>
 
                             <p>- {post.author}</p>
